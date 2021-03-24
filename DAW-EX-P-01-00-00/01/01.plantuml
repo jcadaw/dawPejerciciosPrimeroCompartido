@@ -1,0 +1,15 @@
+@startuml Brujo
+
+class Brujo{
+    **public:**
+        + {static}<<Constant>> PUNTOS_VIDA_INICIAL = 100
+        + nombre
+    **protected:**
+        # color
+    **private:**
+        - alineacion
+        - experiencia
+        - puedeLevitar 
+}
+
+@enduml
